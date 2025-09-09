@@ -1,0 +1,12 @@
+ model: "yolo11n.pt"  
+ imgsz: 512
+ epochs: 15
+ batch: 16
+ patience: 5
+ workers: 2
+ device: 0            
+ project: "runs"
+ name: "train"         
+ cache: "ram"
+ plots: true
+ seed: 42
